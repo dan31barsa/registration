@@ -1,0 +1,61 @@
+body {
+    background-image: url(bgc.jpg);
+}
+
+input,
+textarea,
+select {
+    width: 345px;
+    padding: 25px;
+    margin: 16px;
+    border-style: double;
+    border-radius: 11px;
+    outline: none;
+    border-color: #DC143C;
+
+}
+
+form {
+    background-color: white;
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+
+    padding: 30px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: black;
+
+}
+
+legend {
+    text-align: left;
+    font-size: 19px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+}
+
+.brand {
+    display: inline-block;
+}
+
+.razer {
+    width: 40px;
+
+}
+
+input[type=submit] {
+    background-color: #DC143C;
+}
+input[type=submit]:hover {
+    background-color:#CD5C5C ;
+    cursor: pointer;
+}
+fieldset {
+     border-color: #DC143C;
+}
